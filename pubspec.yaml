@@ -1,0 +1,36 @@
+name: coloring_game
+description: A professional 3D color filling game for kids.
+publish_to: 'none'
+
+version: 1.0.0+4
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  flutter_gradient_colors: ^2.1.1
+  lottie: ^3.1.2
+  path_provider: ^2.0.9
+  audioplayers: ^6.0.0
+  google_mobile_ads: ^5.1.0
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:\]
+  android: true
+  ios: true
+  image_path: "assets/Untitled design (27).png"
+
+flutter:
+  assets:
+    - assets/
+  uses-material-design: true
